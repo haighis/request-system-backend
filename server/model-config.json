@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "CoffeeShop": {
+    "dataSource": "rsdb",
+    "public": true
+  },
+  "Project": {
+    "dataSource": "rsdb",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Request": {
+    "dataSource": "rsdb",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Tenant": {
+    "dataSource": "rsdb",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Status": {
+    "dataSource": "rsdb",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Company": {
+    "dataSource": "rsdb",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  }
+}

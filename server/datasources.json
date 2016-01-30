@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "rsdb": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "test",
+    "username": "johnhaigh",
+    "password": "dick40four",
+    "name": "rsdb",
+    "connector": "postgresql"
+  }
+}
